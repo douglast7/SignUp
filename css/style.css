@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Sen', sans-serif;
+
+  display: grid;
+  grid-template-columns: 480px 1440px;
+}
+
+.form-sign-up {
+  grid-column: 1;
+
+  box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
+
+  height: 100vh;
+}
+
+/* Logo */
+
+.sign-up-logo {
+  color: #1e2772;
+
+  font-size: 42px;
+
+  margin: 206px 131px 0 131px;
+
+  text-align: center;
+}
+
+.sign-up-login {
+  margin: 23px 119px 0 119px;
+
+  text-align: center;
+}
+
+.sign-up-login a {
+  color: #000000;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Input */
+
+.sign-up-input {
+  margin: 45px 0 23px 35px;
+  position: relative;
+}
+
+.sign-up-input p {
+  color: #555555;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-bottom: 10px;
+}
+
+.sign-up-input input {
+  width: 380px;
+  height: 50px;
+
+  border: none;
+
+  background-color: #f1f3f6;
+  border-radius: 8px;
+
+  padding-left: 19px;
+
+  outline: none;
+}
+
+input[type='text'] {
+  color: #555555;
+
+  font-size: 16px;
+}
+
+.email {
+  background-color: #1e2772;
+
+  height: 50px;
+  width: 50px;
+
+  padding: 13px;
+
+  position: absolute;
+
+  top: 35%;
+  left: 80%;
+
+  border-radius: 8px;
+}
+
+.password {
+  background-color: #1e2772;
+
+  height: 50px;
+  width: 50px;
+
+  padding: 13px;
+
+  position: absolute;
+
+  top: 35%;
+  left: 80%;
+
+  border-radius: 8px;
+}
+
+.sign-up-password a {
+  color: #1e2772;
+
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+
+  padding-right: 35px;
+}
+
+.login-now {
+  height: 50px;
+  width: 410px;
+
+  background: #1e2772;
+  border-radius: 8px;
+
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+
+  margin-left: 35px;
+  margin-top: 33px;
+}
+
+.login-now a {
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 13px;
+}
+
+.or {
+  color: #c2c2c2;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  text-align: center;
+  justify-content: center;
+
+  margin-top: 30px;
+
+  position: relative;
+}
+
+.or::before {
+  content: '';
+  width: 175px;
+  height: 1px;
+  display: block;
+  background-color: #c2c2c2;
+  position: absolute;
+  margin-left: 35px;
+
+  top: 50%;
+}
+
+.or::after {
+  content: '';
+  width: 175px;
+  height: 1px;
+  display: block;
+  background-color: #c2c2c2;
+  position: absolute;
+  margin-left: 30px;
+
+  top: 50%;
+  left: 50%;
+}
+
+.sign-up-now {
+  width: 410px;
+  height: 50px;
+
+  border: 1px solid #1e2772;
+  border-radius: 8px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+
+  margin-left: 35px;
+  margin-top: 33px;
+}
+
+.sign-up-now a {
+  display: flex;
+  justify-content: center;
+
+  padding: 13px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Imagem signup */
+
+.celular-sign-up {
+  grid-column: 2;
+
+  display: flex;
+  justify-content: center;
+}
+
+.celular-sign-up img {
+  width: 182px;
+  height: 372px;
+
+  margin-top: 288px;
+}
